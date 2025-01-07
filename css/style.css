@@ -6134,7 +6134,7 @@ label {
   font-size: 18px;
   display: inline-block;
   margin-right: 2px;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 .search_form input {
   border: 0;
