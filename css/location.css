@@ -1,0 +1,488 @@
+#wrap #container {
+    margin-top: 0;
+}
+#container.subpage {
+    padding-top: 110px;
+}
+#container {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 233px);
+    margin: 0 auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+#container.subpage #main {
+    width: 100%;
+    max-width: 1280px;
+}
+#main {
+    margin: 0 auto;
+}
+#container #main {
+    width: 100%;
+    max-width: 1280px;
+}
+#wrap #contents {
+    float: none;
+    width: 100%;
+}
+.findStoreWrap {
+    padding-bottom: 120px;
+}
+.findStoreWrap .top_title {
+    font-size: 25px;
+    font-weight: 300;
+    color: #3a3a3a;
+    text-align: center;
+    margin-top: 61px;
+    margin-bottom: 61px;
+    width: 100%;
+}
+.findStoreWrap * {
+    box-sizing: border-box;
+}
+.findStoreWrap .store_data {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.findStoreWrap .listArea {
+    width: 560px;
+}
+.findStoreWrap .listArea .list_tab {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+    justify-content: space-between;
+}
+.findStoreWrap .listArea .list_tab li {
+    width: 100%;
+}
+.findStoreWrap .listArea .list_tab li > a {
+    width: 100%;
+    height: 32px;
+    display: block;
+    position: relative;
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}
+.findStoreWrap .listArea .list_tab li > a::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}
+.findStoreWrap .listArea .list_tab li > a.on::after {
+    background: #3a3a3a;
+}
+.findStoreWrap .listArea .list_search {
+    margin-bottom: 32px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #3a3a3a;
+    padding: 0 16px;
+}
+.findStoreWrap .listArea .list_search input[type="text"] {
+    width: calc(100% - 32px);
+    height: 32px;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    border-radius: 0;
+    background-color: #fff;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="tel"], textarea {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: inherit;
+    color: var(--color-font);
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    background-color: var(--color-body);
+    outline-style: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.findStoreWrap .listArea .list_search button {
+    width: 32px;
+    height: 32px;
+    background: url(/img/icon_shop_search.svg) no-repeat center center;
+    text-indent: -9999px;
+}
+button {
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    font: inherit;
+}
+.findStoreWrap .listArea .store_input {
+    width: 0;
+    height: 0;
+    position: fixed;
+    left: -100px;
+    top: -100px;
+    opacity: 0;
+}
+input, select, textarea {
+    font-size: 100%;
+    font-family: var(--font-base);
+    color: var(--color-font);
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.findStoreWrap .listArea .list_store {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+.findStoreWrap .listArea .list_store .total {
+    color: #3a3a3a;
+}
+.findStoreWrap .listArea .list_store .total i {
+    font-weight: 700;
+    font-style: normal;
+}
+.findStoreWrap .listArea .list_store .s_select {
+    position: absolute;
+    right: 0;
+    top: -8px;
+}
+.findStoreWrap .listArea .list_store .s_select .view {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.findStoreWrap .listArea .list_store .s_select .view::after {
+    content: '';
+    width: 10px;
+    height: 6px;
+    background: url(/img/icon_select_arrow.svg);
+    transition: all .4s;
+}
+.findStoreWrap .listArea .list_store .s_select .view {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.findStoreWrap .listArea .list_store .s_select .drop {
+    width: 134px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 32px;
+    padding: 24px 0;
+    display: none;
+}
+.findStoreWrap .listArea .list_store .s_select .drop a {
+    width: 100%;
+    height: 32px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.findStoreWrap .listArea .list_store ul {
+    width: 100%;
+    max-height: 490px;
+    padding: 0 24px 32px 24px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.findStoreWrap .listArea .list_store li {
+    width: 100%;
+    padding: 32px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.findStoreWrap .listArea .list_store dl {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.findStoreWrap .listArea .list_store dt a {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.findStoreWrap .listArea .list_store dt a .name {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3a3a3a;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.findStoreWrap .listArea .list_store dt a .name i {
+    font-size: 12px;
+    color: #005dff;
+    font-style: normal;
+}
+.findStoreWrap .listArea .list_store dd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.findStoreWrap .listArea .list_store dd .info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+.findStoreWrap .detailArea {
+    width: calc(100% - 575px);
+}
+.findStoreWrap .detailArea .main_store .storeInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.findStoreWrap .detailArea .main_store .storeInfo .photo {
+    width: 100%;
+    display: flex;
+}
+.findStoreWrap .detailArea .main_store .storeInfo .photo > img {
+    width: 100%;
+}
+.findStoreWrap .detailArea .main_store .storeInfo ul li.name {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.findStoreWrap .detailArea .main_store .storeInfo ul li {
+    display: inline-block;
+}
+.findStoreWrap .detailArea .main_store .storeInfo ul li.addr {
+    width: 100%;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+.findStoreWrap .detailArea .main_store .storeInfo ul li.text {
+    margin-right: 3px;
+    padding-right: 11px;
+    position: relative;
+    font-weight: 300;
+}
+.findStoreWrap .detailArea .main_store .storeInfo ul li.text:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+.findStoreWrap .detailArea .main_store .storeInfo ul li.text {
+    margin-right: 3px;
+    padding-right: 11px;
+    position: relative;
+    font-weight: 300;
+}
+.findStoreWrap .detailArea .main_store .storeInfo:last-child {
+    margin-bottom: 0;
+}
+.findStoreWrap .detailArea .searchWrap {
+    width: 100%;
+    height: 620px;
+}
+.findStoreWrap .detailArea .searchWrap iframe {
+    margin-top: 20px;
+    width: 100%;
+    height:620px;
+    border: none;
+}
+hr.layout {
+    display: none;
+}
+#main:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.findStoreWrap .detailArea .main_store .storeInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.findStoreWrap .detailArea .main_store .storeInfo .photo {
+    width: 100%;
+    display: flex;
+}
+
+@media all and (max-width: 1024px) {
+    #container {
+        padding: 0 20px;
+    }
+}  
+
+@media all and (max-width: 767px) {
+    .findStoreWrap .top_title {
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  
+    .findStoreWrap .store_data {
+        width: 100%;
+        padding: 1rem 1rem 1rem 1rem;
+        flex-direction: column-reverse;
+        position: relative;
+        /* margin-top: 6rem; */
+        gap: 4rem;
+    }
+  
+    .findStoreWrap .listArea {
+        width: 100%
+    }
+  
+    .findStoreWrap .listArea .list_tab {
+        width: calc(100% - 4.8rem);
+        gap: 3.2rem;
+        margin-bottom: 4rem;
+        position: absolute;
+        left: 2.4rem;
+        top: 0
+    }
+  
+    .findStoreWrap .listArea .list_tab li > a {
+        height: 4.6rem;
+        font-size: 2.8rem
+    }
+  
+    .findStoreWrap .listArea .list_search {
+        margin-bottom: 2rem;
+        padding: 0;
+        height: 5rem;
+    }
+  
+    .findStoreWrap .listArea .list_search input[type="text"] {
+        width: calc(100% - 2rem);
+        height: 4rem;
+        font-size: 2.4rem;
+    }
+  
+    .findStoreWrap .listArea .list_search button {
+        width: 4rem;
+        height: 4rem;
+        background-size: 2rem;
+    }
+  
+    .findStoreWrap .listArea .list_store {
+        gap: 2.4rem
+    }
+  
+    .findStoreWrap .listArea .list_store .total i {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.4rem
+    }
+  
+    .findStoreWrap .listArea .list_store .s_select .drop {
+        width: auto;
+        left: inherit;
+        right: 0;
+        transform: none;
+        padding: 2rem 0
+    }
+  
+    .findStoreWrap .listArea .list_store .s_select .drop a {
+        width: 100%;
+        height: 32px;
+        padding: 0 4rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap
+    }
+  
+    .findStoreWrap .listArea .list_store ul {
+        max-height: none;
+        padding: 0 1rem 1rem 1rem;
+    }
+  
+    .findStoreWrap .listArea .list_store li {
+        padding: 2rem 0
+    }
+  
+    .findStoreWrap .listArea .list_store dl {
+        gap: 2.2rem
+    }
+  
+    .findStoreWrap .listArea .list_store dt a {
+        gap: 1.6rem
+    }
+  
+    .findStoreWrap .listArea .list_store dt a .name {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+  
+    .findStoreWrap .listArea .list_store dt a .name i {
+        font-size: 1rem;
+        margin-left: 1.6rem
+    }
+  
+    .findStoreWrap .detailArea {
+        width: 100%
+    }
+  
+    .findStoreWrap .detailArea .main_store .repStorePC {
+        display: none
+    }
+  
+    .findStoreWrap .detailArea .main_store .repStoreMobile {
+        display: block
+    }
+  
+    .findStoreWrap .detailArea .main_store .storeInfo {
+        margin-bottom: 0;
+        gap: 2.4rem
+    }
+  
+    .findStoreWrap .detailArea .main_store .storeInfo ul li.name {
+        font-size: 2.8rem;
+        font-weight: 300;
+        margin-bottom: 1.6rem
+    }
+  
+    .findStoreWrap .detailArea .main_store .storeInfo ul li.addr {
+        margin-bottom: 2.4rem
+    }
+  
+    .findStoreWrap .detailArea .searchWrap {
+        height: 48rem
+    }
+  
+    .findStoreWrap .detailArea .searchWrap iframe {
+        width: 100%;
+        height: 100%
+    }
+  }
+
+
+
+
