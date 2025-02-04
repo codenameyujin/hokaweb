@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fdisplay\u002Flaunches","\u002Fdisplay\u002Flaunches\u002F[category]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

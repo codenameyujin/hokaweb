@@ -1,0 +1,728 @@
+* {
+    font-family: "Pretendard", "Open Sans", "Overlock", serif;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+#wrap {
+    flex: 1 1;
+    margin-bottom: 100px;
+}
+.topic_container__HJaNh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 352px;
+    gap: 20px;
+}
+.topic_title__bxR_2 {
+    color: #0D99FF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -.6px;
+}
+.topic_description__IqCXI {
+    color: #111;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1.2px;
+}
+@media (min-width: 1076px) {
+    .topic_description_mob__Jr2XD {
+        display: none;
+    }
+}
+.topic_description_mob__Jr2XD {
+    color: #111;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    letter-spacing: -.06rem;
+}
+.container_container__w5NzV {
+    width: 1076px;
+    margin: 0 auto;
+}
+.seniorlifeCategory_search_container__Oc29N .seniorlifeCategory_search_wrap__vIQDh {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1080px;
+    height: 64px;
+    border-radius: 40px;
+    border: 1px solid #e0e5ec;
+    background: #fff;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, .05);
+    gap: 8px;
+}
+.seniorlifeCategory_search_container__Oc29N .seniorlifeCategory_search_wrap__vIQDh input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -.48px;
+}
+.seniorlifeList_wrap__c4Ueu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 28px;
+    gap: 28px;
+    margin: 28px 0 194px;
+    min-height: 400px;
+}
+.seniorlifeCard_card_container__9qBCl {
+    display: block;
+    width: 340px;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    overflow: hidden;
+}
+button {
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_info_box__O5I_1 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_info_box__O5I_1 span:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+    background-color: transparent;
+    padding: 0;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_top__Uz7qE {
+    width: 100%;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    line-height: 32px;
+    letter-spacing: -.72px;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_top__Uz7qE p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: left;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM p {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.42px;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_icon_container__6vDHQ {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 8px;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_icon_container__6vDHQ div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_icon_container__6vDHQ div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4e596b;
+}
+.seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM p {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.42px;
+}
+.seniorlifeCard_card_bottom__nwbDy {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seniorlifeCard_card_bottom__nwbDy img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.seniorlifeCard_card_top__VdniP {
+    height: 180px;
+    padding: 28px 28px 20px;
+}
+.seniorlifeCard_card_container__9qBCl:hover .seniorlifeCard_card_top__VdniP {
+    background-color: #0D99FF;
+}
+.seniorlifeCard_card_container__9qBCl:hover .seniorlifeCard_card_top__VdniP .seniorlifeCard_info_box__O5I_1 span:last-child,.seniorlifeCard_card_container__9qBCl:hover .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM h3,.seniorlifeCard_card_container__9qBCl:hover .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM p,.seniorlifeCard_card_container__9qBCl:hover span {
+    color: #fff
+}
+.seniorlifeDetailPage_like_box__qywxY {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.seniorlifeDetailPage_like_box__qywxY img {
+    width: 40px;
+    height: 40px;
+}
+.seniorlifeDetailPage_like_box__qywxY span {
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.42px;
+}
+.seniorlifeDetailPage_like_box__qywxY .seniorlifeDetailPage_like_count__GO350 {
+    color: #ff532d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -.42px;
+    margin-left: 4px;
+}
+.seniorlifeDetailPage_line__o_txH {
+    height: 8px;
+    background: #f1f1f5;
+    margin: 28px 0;
+}
+.seniorlifeDetailPage_comment_write__ELklj {
+    display: flex;
+    justify-content: space-between;
+}
+.seniorlifeDetailPage_comment_info__8gWse {
+    display: flex;
+    flex-direction: column;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.42px;
+}
+.seniorlifeDetailPage_wirte_btn__yY7J9 {
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 22px;
+    border: 1px solid #e5e5ec;
+    background: #fff;
+    color: #4359fc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -.42px;
+}
+.seniorlifeDetailPage_container__MRWyi img {
+    cursor: pointer;
+}
+.seniorlifeDetailPage_thin_line__1yx24 {
+    background: #e5e5ec;
+    height: 1px;
+    margin-top: 28px;
+}
+.seniorlifeDetailPage_comment_box__J3Cjn {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.seniorlifeDetailPage_comment_count__D8_1B {
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -.48px;
+    margin-top: 28px;
+}
+.seniorlifeDetailPage_comment_count__D8_1B span {
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -.48px;
+}
+.seniorlifeDetailPage_list_btn__RN3Oh {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 0 120px;
+}
+.seniorlifeDetailPage_list_btn__RN3Oh button {
+    width: 150px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid #0b0d10;
+    background: #fff;
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -.48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-navigation button.next, .page-navigation button.prev {
+    margin: 0 15px;
+}
+.page-navigation button:disabled {
+    cursor: default;
+}
+.page-navigation button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+}
+.page-navigation, .page-navigation button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.page-navigation button.next:disabled .chevron_right, .page-navigation button.prev:disabled .chevron_left {
+    stroke: #999;
+}
+.page-navigation button.active {
+    border-radius: 50%;
+    background-color: #ebeef2;
+}
+.page-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #232324;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 1075px) {
+    .topic_container__HJaNh {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        height: 14rem;
+        margin-top: 9.6rem;
+        padding: 0 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1075px) {
+    .topic_title__bxR_2 {
+        display: none;
+    }
+}
+@media (max-width: 1075px) {
+    .backHeader_wrap__FT0Kj {
+        display: flex;
+        align-items: center;
+        height: 5.6rem;
+        gap: 2rem;
+        padding: 1.4rem 0 1.4rem 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background-color: #fff;
+        width: 100%;
+    }
+}
+@media (max-width: 1075px) {
+    .backHeader_wrap__FT0Kj .backHeader_title__q1_7e {
+        margin: auto;
+        padding-right: 4.8rem;
+    }
+}
+@media (max-width: 1075px) {
+    .backHeader_wrap__FT0Kj .backHeader_title__q1_7e span {
+        color: #111;
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        letter-spacing: -.048rem;
+    }
+}
+@media (max-width: 1075px) {
+    .menuInfo_contianer__ugnqZ {
+        display: none;
+    }
+}
+@media (max-width: 1075px) {
+    .topic_container__HJaNh {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        height: 14rem;
+        margin-top: 9.6rem;
+        padding: 0 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1024px) {
+    .topic_container__HJaNh {
+        height: 150px;
+        margin-top: 9.6rem;
+    }
+    .topic_description_mob__Jr2XD {
+        font-size: 35px;
+    }
+}
+@media (max-width: 768px) {
+    .topic_container__HJaNh {
+        height: 150px;
+        margin-top: 7rem;
+    }
+    .topic_description_mob__Jr2XD {
+        font-size: 35px;
+    }
+}
+@media (max-width: 430px) {
+    .topic_container__HJaNh {
+        height: 130px;
+        margin-top: 6rem;
+    }
+    .topic_description_mob__Jr2XD {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1075px) {
+    .topic_title__bxR_2 {
+        display: none;
+    }
+}
+@media (max-width: 1075px) {
+    .topic_description__IqCXI {
+        display: none;
+    }
+}
+@media (max-width: 1075px) {
+    .container_container__w5NzV {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCategory_search_container__Oc29N {
+        margin-top: -4rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCategory_search_container__Oc29N .seniorlifeCategory_search_wrap__vIQDh {
+        display: flex;
+        width: 100%;
+        padding: 1.2rem 2rem;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4rem;
+        height: auto;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCategory_search_container__Oc29N .seniorlifeCategory_search_wrap__vIQDh input {
+        color: #999;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: -.042rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeList_wrap__c4Ueu {
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_container__9qBCl {
+        width: 100%;
+        border-radius: 1.6rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP {
+        height: 17.6rem;
+        padding: 2rem 1.2rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_info_box__O5I_1 {
+        gap: .8rem;
+        margin-bottom: .8rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_info_box__O5I_1 span:last-child {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM {
+        gap: 2rem;
+        height: 10.4rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_top__Uz7qE {
+        display: flex;
+        flex-direction: column;
+        height: 6.8rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM h3 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        letter-spacing: -.06em;
+        margin-bottom: .8rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_top__Uz7qE p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_container__MRWyi {
+        padding: 0 2rem;
+    }
+}
+@media (max-width: 1024px) {
+    .seniorlifeDetailPage_top__BMBks {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .seniorlifeDetailPage_top__BMBks {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 430px) {
+    .seniorlifeDetailPage_top__BMBks {
+        padding-top: 10px;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_title__YZ_jP {
+        font-size: 2.3rem;
+        line-height: 2.8rem;
+        letter-spacing: -.06rem;
+        word-break: auto-phrase;
+    }
+}
+@media (max-width: 768px) {
+    .seniorlifeDetailPage_title__YZ_jP {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 430px) {
+    .seniorlifeDetailPage_title__YZ_jP {
+        font-size: 2.1rem;
+    }
+}
+@media (max-width: 430px) {
+    .seniorlifeDetailPage_comment_info__8gWse {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+@media (max-width: 430px) {
+    .seniorlifeCard_card_top__VdniP .seniorlifeCard_top_container__JFknM .seniorlifeCard_top__Uz7qE p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_sub_title__7xytn {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: -.042rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_share__QSisP img {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_contents__JNLTr {
+        margin-bottom: 4rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_like_box__qywxY {
+        gap: .4rem;
+    }
+}
+
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_comment_write__ELklj {
+        gap: 2.8rem;
+        margin-bottom: 2.8rem;
+        text-wrap: nowrap;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_comment_info__8gWse {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+@media (max-width: 430px) {
+    .seniorlifeDetailPage_comment_info__8gWse {
+        font-size: 13px;
+        line-height: 1.6rem;
+        letter-spacing: -.036rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_thin_line__1yx24 {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_comment_box__J3Cjn {
+        margin-bottom: 10rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_wrap__tcXJZ {
+        width: 100%;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_list_btn__RN3Oh {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 10rem;
+        background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 46%, #fff);
+        margin: 0;
+        padding: 2.8rem 2rem 2rem;
+    }
+}
+@media (max-width: 1075px) {
+    .seniorlifeDetailPage_list_btn__RN3Oh button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

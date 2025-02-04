@@ -1,0 +1,51 @@
+.promotion-video {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 42.039%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .promotion-video {
+        padding-bottom: 300px;
+    }
+  }
+  
+  .promotion-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.history__area p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+.page-layout {
+    height: 700px;
+}
+@media (max-width: 1024px) {
+    .history__area {
+        padding-top: 10px;
+    }
+    .page-layout {
+        height: 600px;
+    }
+    .g_history {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .title-6 {
+        font-size: 36px;
+    }
+    .page-layout {
+        height: 500px;
+    }
+}
+
+.free__shiping {
+    background-size: cover;
+}
