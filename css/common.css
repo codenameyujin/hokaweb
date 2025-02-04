@@ -643,7 +643,7 @@ r .pr_visual .thumb span.active { border: 2px solid rgb(68, 68, 68); padding: 14
 .pr_info .marketing span { display: inline-block; margin-right: 10px; vertical-align: top; }
 .pr_info .marketing span.online { color: rgb(221, 24, 53); font-size: 11px; font-weight: 700; line-height: 16px; }
 .pr_info .marketing span.state { color: rgb(119, 119, 119); font-size: 14px; font-weight: 700; line-height: 20px; }
-[class*="badge_"] { display: inline-block; width: 33px; height: 20px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 20px; text-align: center; margin-right: 0px !important; }
+/* [class*="badge_"] { display: inline-block; width: 33px; height: 20px; color: rgb(255, 255, 255); font-size: 11px; font-weight: 700; line-height: 20px; text-align: center; margin-right: 0px !important; } */
 [class*="badge_"] + [class*="badge_"] { margin-left: -2px; }
 [class*="badge_"] + span { margin-left: 10px; }
 .badge_sale { background-color: rgb(221, 24, 53); }
