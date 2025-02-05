@@ -6031,6 +6031,16 @@ header .nav .nav-icon.active div {
     .headerArea .navbar>li:hover>.sub-menu { display: block; visibility: visible; }
     .headerArea .navbar>li:hover a span::after { width: calc(100% + 10px); transition: width .3s; }
     .headerArea .navbar li a { font-weight: 600; font-size: 18px; line-height: 1.17; height: 100%; color: #000; display: flex; align-items: center; }
+    .headerArea .navbar li a.header-challenge-badge::after {
+      content: "";
+      width: 60px;
+      height: 22px;
+      background: url(../img/main/header-challenge-badge.png) 0 0 no-repeat;
+      background-size: 60px 22px;
+      position: absolute;
+      right: -10px;
+      top: 25px;
+    }
     .headerArea .navbar>li:hover .sub-menu .sub-menu { display: block; }
     .headerArea .navbar>li .sub-menu .sub-menu { margin-top: 20px; }
     .headerArea .navbar>li .sub-menu .sub-menu li { margin-bottom: 12px; }
