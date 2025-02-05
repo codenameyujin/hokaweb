@@ -946,6 +946,15 @@
 
     <!-- to top area start -->
     <div class="fix_btn">
+        <!-- challenge badge start -->
+        <div class="challenge-badges">
+            <div class="challenge-badge">
+                <a href="/challenge.html">
+                    <img src="./img/main/challenge-badges.png" alt="HOKA FLY HUMAN FLY 챌린지">
+                </a>
+            </div>
+        </div>
+        <!-- // challenge badge end -->
         <div class="to_top">
             <p class="f15" style="color: #fff; margin-bottom: 5px;">top</p>
         </div>
@@ -988,75 +997,89 @@
         
     </script>
     <script>
-            $(function () {      
-                //상단으로 올라가는 버튼
-                $(".to_top").click(function () {
-                    $("html, body").animate(
-                        {
-                            scrollTop: 0,
-                        },
-                        400
-                    );
-                    return false;
-                });
-        
-                //Top 버튼 스크롤시 노출
-                $(window).scroll(function () {
-                    var wTop = $(window).scrollTop();
-                    var sec1_scrollTop = 500;
-                    if (wTop > sec1_scrollTop) {
-                        $(".fix_btn").addClass("on");
-                    } else {
-                        $(".fix_btn").removeClass("on");
-                    }
+        $(function () {      
+            // 상단으로 올라가는 버튼
+            $(".to_top").click(function () {
+                $("html, body").animate(
+                    {
+                        scrollTop: 0,
+                    },
+                    400
+                );
+                return false;
+            });
 
-                //Top 버튼 footer에 닿을때 lock
+            // Top 버튼 스크롤 시 노출
+            $(window).scroll(function () {
+                var wTop = $(window).scrollTop();
+                var sec1_scrollTop = 500;
+
+                // .fix_btn와 .challenge-badges 노출
+                if (wTop > sec1_scrollTop) {
+                    $(".fix_btn").addClass("on");
+                    $(".challenge-badges").addClass("on");
+                } else {
+                    $(".fix_btn").removeClass("on");
+                    $(".challenge-badges").removeClass("on");
+                }
+
+                // Top 버튼 footer에 닿을 때 lock
                 const width = window.innerWidth;
                 if (width > 2000) {
                     var footerTop = $(".lock_point").offset().top - 1200;
                     if (wTop >= footerTop) {
                         $(".fix_btn").addClass("lock");
+                        $(".challenge-badges").addClass("lock");
                     } else {
                         $(".fix_btn").removeClass("lock");
+                        $(".challenge-badges").removeClass("lock");
                     }
                 } else if (width <= 2000 && width > 1280) {
                     var footerTop = $(".lock_point").offset().top - 800;
                     if (wTop >= footerTop) {
                         $(".fix_btn").addClass("lock");
+                        $(".challenge-badges").addClass("lock");
                     } else {
                         $(".fix_btn").removeClass("lock");
+                        $(".challenge-badges").removeClass("lock");
                     }
                 } else if (width <= 1280 && width >= 768) {
                     var footerTop = $(".lock_point").offset().top - 800;
                     if (wTop >= footerTop) {
                         $(".fix_btn").addClass("lock");
                         $(".bt_wrap").addClass("lock");
+                        $(".challenge-badges").addClass("lock");
                     } else {
                         $(".fix_btn").removeClass("lock");
                         $(".bt_wrap").removeClass("lock");
+                        $(".challenge-badges").removeClass("lock");
                     }
                 } else if (width < 378) {
                     var footerTop = $("#footer_container").offset().top - 380;
                     if (wTop >= footerTop) {
                         $(".fix_btn").addClass("lock");
                         $(".bt_wrap").addClass("lock");
+                        $(".challenge-badges").addClass("lock");
                     } else {
                         $(".fix_btn").removeClass("lock");
                         $(".bt_wrap").removeClass("lock");
+                        $(".challenge-badges").removeClass("lock");
                     }
                 } else {
                     var footerTop = $(".footer .lock_point").offset().top - 800;
                     if (wTop >= footerTop) {
                         $(".fix_btn").addClass("lock");
                         $(".bt_wrap").addClass("lock");
+                        $(".challenge-badges").addClass("lock");
                     } else {
                         $(".fix_btn").removeClass("lock");
                         $(".bt_wrap").removeClass("lock");
+                        $(".challenge-badges").removeClass("lock");
                     }
                 }                    
-                });
             });
-     </script>
+        });
+    </script>
 
 </body>
 </html>

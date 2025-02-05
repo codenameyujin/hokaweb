@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-==================================
+/* ==================================
     1. common
 ==================================
 
@@ -13672,6 +13672,7 @@ footer {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  justify-self: flex-end;
 }
 
 .fix_btn.on .to_top {
@@ -24242,4 +24243,35 @@ hr {
   .brand-mo {
     display: none;
   }
+}
+
+.challenge-badge {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.challenge-badge img {
+  display: block;
+}
+
+.fix_btn.on .challenge-badges {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.fix_btn .challenge-badges {
+  opacity: 0;
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  justify-content: right;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
